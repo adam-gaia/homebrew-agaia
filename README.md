@@ -6,11 +6,17 @@ These formulas are for installing 3rd party software not available via a package
 -------
 
 
-# Command reference
+# Command Reference
 * Install from formula  
-``brew install --HEAD ./Formula/<formulaName.rb>``  
+``brew install [--HEAD] ./Formula/<formulaName.rb>``  
 The `--HEAD` flag is needed because we are installing via git clone. Most brew packages are from tarballs.  
 * Debug install  
 ``brew install --verbose --debug --HEAD ./Formula/<formulaName.rb>``  
 * Uninstall  
 ``brew uninstall <packageName>``  
+
+# Formulas in this Repo
+* imgcat  
+``brew install ./Formula/iTermImgcat.rb``
+* git-diffn  
+``brew install --HEAD ./Formula/gitdiffn.rb``  
