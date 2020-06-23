@@ -2,6 +2,7 @@ class Gitdiffn < Formula
   desc ""
   homepage ""
   url "https://github.com/ElectricRCAircraftGuy/eRCaGuy_dotfiles"
+  version "1.0"
   bottle :unneeded
   
   depends_on "gawk"
