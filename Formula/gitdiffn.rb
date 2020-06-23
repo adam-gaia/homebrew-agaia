@@ -1,7 +1,7 @@
 class Gitdiffn < Formula
   desc ""
   homepage ""
-  url "https://github.com/ElectricRCAircraftGuy/eRCaGuy_dotfiles"
+  head "https://github.com/ElectricRCAircraftGuy/eRCaGuy_dotfiles.git"
   version "1.0"
   bottle :unneeded
   
@@ -18,7 +18,6 @@ class Gitdiffn < Formula
     system "echo hello"
     system "pwd"
     system "touch", "asdf"
-    #system "git", "clone", "https://github.com/ElectricRCAircraftGuy/eRCaGuy_dotfiles",
     #system "", ""
     #system "make", "install"
   end
