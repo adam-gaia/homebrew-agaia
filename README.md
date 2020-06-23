@@ -3,10 +3,10 @@ Mac Brew Formulas
 
 
 # Command reference
-*Install from formula  
+* Install from formula  
 ``brew install --HEAD ./Formula/<formulaName.rb>``  
 The `--HEAD` flag is needed because we are installing via git clone. Most brew packages are from tarballs.  
-*Debug install  
+* Debug install  
 ``brew install --verbose --debug --HEAD ./Formula/<formulaName.rb>``  
-*Uninstall  
+* Uninstall  
 ``brew uninstall <packageName>``  
