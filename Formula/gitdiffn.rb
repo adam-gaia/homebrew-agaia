@@ -17,6 +17,7 @@ class Gitdiffn < Formula
   def install
     system "echo hello"
     system "pwd"
+    system "touch", "asdf"
     #system "git", "clone", "https://github.com/ElectricRCAircraftGuy/eRCaGuy_dotfiles",
     #system "", ""
     #system "make", "install"
