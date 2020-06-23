@@ -1,8 +1,9 @@
 class Gitdiffn < Formula
-  desc ""
-  homepage ""
+  desc "Awk wrapper to add line numbers to git diff.
+        Created by github.com/ElectricRCAircraftGuy"
+  homepage "https://github.com/ElectricRCAircraftGuy/eRCaGuy_dotfiles"
   head "https://github.com/ElectricRCAircraftGuy/eRCaGuy_dotfiles.git"
-  version "1.0"
+  version "x"
   bottle :unneeded
   
   depends_on "gawk"
@@ -13,16 +14,12 @@ class Gitdiffn < Formula
     #
   #end
 
-
   def install
-    system "echo hello"
-    system "pwd"
-    system "touch", "asdf"
-    #system "", ""
-    #system "make", "install"
+    # Only install the git diffn script
+    bin.install "useful_scripts/git-diffn.sh"
   end
 
   test do
-    system "false"
+    system "command -v git-diffn.sh"
   end
 end
