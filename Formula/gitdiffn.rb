@@ -1,4 +1,4 @@
-class Foo < Formula
+class Gitdiffn < Formula
   desc ""
   homepage ""
   url "https://github.com/ElectricRCAircraftGuy/eRCaGuy_dotfiles"
