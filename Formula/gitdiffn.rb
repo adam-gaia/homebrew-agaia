@@ -6,15 +6,15 @@ class Foo < Formula
   
   depends_on "gawk"
 
-  if OS.mac?
+  #if OS.mac?
     # Need to change 'awk' to gawk
-  elsif OS.linux?
+  #elsif OS.linux?
     #
-  end
+  #end
 
 
   def install
-    system "echo hello",
+    system "echo hello"
     system "pwd"
     #system "git", "clone", "https://github.com/ElectricRCAircraftGuy/eRCaGuy_dotfiles",
     #system "", ""
