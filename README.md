@@ -17,6 +17,8 @@ The `--HEAD` flag is needed if we are installing via git clone. Most brew packag
 
 # Formulas in this Repo
 * imgcat  
-``brew install ./Formula/iTermImgcat.rb``
+``brew install ./Formula/iTermImgcat.rb``  
+[Homepage](https://iterm2.com/documentation-images.html)  
 * git-diffn  
 ``brew install --HEAD ./Formula/gitdiffn.rb``  
+[Homepage](https://github.com/ElectricRCAircraftGuy/eRCaGuy_dotfiles)  
