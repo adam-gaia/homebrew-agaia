@@ -8,12 +8,6 @@ class Gitdiffn < Formula
   
   depends_on "gawk"
 
-  #if OS.mac?
-    # Need to change 'awk' to gawk
-  #elsif OS.linux?
-    #
-  #end
-
   def install
     # Only install the git diffn script
     bin.install "useful_scripts/git-diffn.sh"
