@@ -20,3 +20,5 @@ The `--HEAD` flag is needed if we are installing via git clone. Most brew packag
 ``brew install ./Formula/iTermImgcat.rb``  
 * [git-diffn](https://github.com/ElectricRCAircraftGuy/eRCaGuy_dotfiles)  
 ``brew install --HEAD ./Formula/gitdiffn.rb``  
+* [Bash LIne Editor](https://github.com/akinomyoga/ble.sh)
+``brew install --HEAD ./Formula/bashLineEditor.rb``
