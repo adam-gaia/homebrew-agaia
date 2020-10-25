@@ -1,7 +1,12 @@
+
 # homebrew-agaia
 Mac Brew Formulas
 
 These formulas are for installing 3rd party software not available via a package manager. I use these formulas to install software in a hopefully more manageable way than manually cloning repos and sym-linking execs.
+
+
+Note:
+Please lowercase the formula names. `brew bundle` forces lowercase.
 
 -------
 
